@@ -1,0 +1,20 @@
+{
+  "name": "administrateur/php-framework",
+  "description": "Un petit framework MVC",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "seb",
+      "email": "moi@seb.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "m2i\\framework\\": "framework/",
+      "m2i\\project\\controllers\\": "src/controllers/"
+    }
+  }
+}
